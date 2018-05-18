@@ -1,3 +1,3 @@
-function disemvowel(str) {
-  return str.replace(/[aeiou]/ig, '');
-}
+var gimme = function (inputArray) {
+  return inputArray.indexOf(inputArray.slice().sort((a, b) => a - b)[1]);
+};
